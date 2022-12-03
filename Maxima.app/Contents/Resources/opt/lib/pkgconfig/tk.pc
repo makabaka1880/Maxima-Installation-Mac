@@ -1,0 +1,15 @@
+# tk pkg-config source file
+
+prefix=/Applications/Maxima.app/Contents/Resources/opt
+exec_prefix=/Applications/Maxima.app/Contents/Resources/opt
+libdir=/Applications/Maxima.app/Contents/Resources/opt/lib
+includedir=${prefix}/include
+
+Name: The Tk Toolkit
+Description: Tk is a cross-platform graphical user interface toolkit, the standard GUI not only for Tcl, but for many other dynamic languages as well.
+URL: http://www.tcl.tk/
+Version: 8.6.7
+Requires: tcl >= 8.6
+Libs: -L${libdir} -ltk8.6 -ltkstub8.6
+Libs.private: -L/Applications/Maxima.app/Contents/Resources/opt/lib -lXft -lfontconfig -lX11 -Wl,-weak-lXss -lXext
+Cflags: -I${includedir}

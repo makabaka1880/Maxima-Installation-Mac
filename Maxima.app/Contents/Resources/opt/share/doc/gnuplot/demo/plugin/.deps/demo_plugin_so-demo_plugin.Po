@@ -1,0 +1,21 @@
+demo_plugin_so-demo_plugin.o demo_plugin_so-demo_plugin.o: demo_plugin.c \
+  gnuplot_plugin.h ../../src/gp_types.h ../../src/syscfg.h ../../config.h \
+  /usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h \
+  /usr/include/math.h /usr/include/architecture/i386/math.h \
+  /usr/include/sys/cdefs.h
+
+gnuplot_plugin.h:
+
+../../src/gp_types.h:
+
+../../src/syscfg.h:
+
+../../config.h:
+
+/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h:
+
+/usr/include/math.h:
+
+/usr/include/architecture/i386/math.h:
+
+/usr/include/sys/cdefs.h:

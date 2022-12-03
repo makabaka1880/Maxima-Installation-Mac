@@ -1,0 +1,12 @@
+prefix=/Applications/Maxima.app/Contents/Resources/opt
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libssl
+Description: Secure Sockets Layer and cryptography libraries
+Version: 1.0.2l
+Requires.private: libcrypto
+Libs: -L${libdir} -lssl
+Libs.private: -L/Applications/Maxima.app/Contents/Resources/opt/lib  -lz
+Cflags: -I${includedir} 

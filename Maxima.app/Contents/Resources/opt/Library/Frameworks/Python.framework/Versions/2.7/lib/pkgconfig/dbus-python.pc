@@ -1,0 +1,12 @@
+# This file is currently Python-version-independent.
+prefix=/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Versions/2.7
+exec_prefix=${prefix}
+includedir=/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+
+Name: dbus-python
+Description: Python bindings for D-Bus
+Requires: dbus-1 >= 1.0
+Version: 1.2.0
+Cflags: -I${includedir}

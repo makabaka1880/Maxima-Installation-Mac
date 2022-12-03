@@ -1,0 +1,11 @@
+prefix=/Applications/Maxima.app/Contents/Resources/opt
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gd
+Description: GD graphics library
+Version: 2.2.5
+Cflags: -I${includedir}
+Libs.private:  -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -lz -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -lpng16 -lz -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -lfreetype -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -lfontconfig -lfreetype -L/Applications/Maxima.app/Contents/Resources/opt/lib  -ljpeg -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -lXpm -lX11 -L/Applications/Maxima.app/Contents/Resources/opt/lib -L/Applications/Maxima.app/Contents/Resources/opt/lib -ltiff -L/Applications/Maxima.app/Contents/Resources/opt/lib  -lwebp -liconv
+Libs: -L${libdir} -lgd

@@ -1,0 +1,14 @@
+prefix=/Applications/Maxima.app/Contents/Resources/opt
+exec_prefix=/Applications/Maxima.app/Contents/Resources/opt
+libdir=/Applications/Maxima.app/Contents/Resources/opt/lib
+includedir=/Applications/Maxima.app/Contents/Resources/opt/include
+
+Name: FreeType 2
+URL: http://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 20.0.14
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: -lbz2
+Cflags: -I${includedir}/freetype2

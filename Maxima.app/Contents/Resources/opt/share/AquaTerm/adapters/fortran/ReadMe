@@ -1,0 +1,8 @@
+To test the Fortran examples, 
+edit Makefile to select compiler, then run the makefile:
+make 
+then test by 
+./demo
+./eventdemo1
+
+Note that f2aqt.{m,h} and demo_old.f are the old example files, fixed for AquaTerm 1.x

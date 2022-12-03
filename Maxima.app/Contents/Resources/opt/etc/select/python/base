@@ -1,0 +1,13 @@
+bin/python
+bin/pythonw
+bin/python-config
+bin/idle
+bin/pydoc
+bin/smtpd.py
+bin/2to3
+share/man/man1/python.1
+share/man/man1/python.1.gz
+/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Versions/Current
+/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Headers
+/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Resources
+/Applications/Maxima.app/Contents/Resources/opt/Library/Frameworks/Python.framework/Python

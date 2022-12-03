@@ -1,0 +1,13 @@
+prefix=/Applications/Maxima.app/Contents/Resources/opt
+exec_prefix=/Applications/Maxima.app/Contents/Resources/opt
+libdir=/Applications/Maxima.app/Contents/Resources/opt/lib
+includedir=/Applications/Maxima.app/Contents/Resources/opt/include
+
+Name: harfbuzz
+Description: HarfBuzz text shaping library
+Version: 1.5.1
+
+Libs: -L${libdir} -lharfbuzz
+Libs.private:    
+Requires.private: glib-2.0 >= 2.19.1 graphite2
+Cflags: -I${includedir}/harfbuzz
